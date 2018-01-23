@@ -18,6 +18,6 @@ $params = [
     'index' => 'movies'
   ];
 
-$response = $elastic_client->delete($params);
+$response = $elastic_client->indices()->delete($params);
 echo $response;
         ?>

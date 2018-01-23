@@ -33,12 +33,12 @@ if ($error == "") {
         $rating_value = $key['rating']['value'];
         $rating_counter = $key['rating']['counter'];
         $rating_rank = $key['rating']['rank'];
-        $image = $key['info']['image_url']
+        $image = $key['info']['image_url'];
 
         /* Items in neues Array einfügen */
         $params = [
-            'index' => "movies",
-            'type' => "movie",
+            'index' => 'movies',
+            'type' => 'movie',
             'body' => [
                 'rating_counter' => $rating_counter,
                 'rating_rank' => $rating_rank,

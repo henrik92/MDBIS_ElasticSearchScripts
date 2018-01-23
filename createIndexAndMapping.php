@@ -13,7 +13,7 @@ require 'vendor/autoload.php';
 use Elasticsearch\ClientBuilder;
 
 $hosts = [
-    'http://search-mdbis-x25ypnphotzm5cnlfacv4nw7xq.eu-central-1.es.amazonaws.com'
+    'http://search-mdbis-x25ypnphotzm5cnlfacv4nw7xq.eu-central-1.es.amazonaws.com:80'
 ];
 
 $clientBuilder = ClientBuilder::create();
